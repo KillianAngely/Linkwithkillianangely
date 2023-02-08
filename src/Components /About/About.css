@@ -1,0 +1,9 @@
+.Section_about_container{
+   padding: 30vh 20vh;
+    min-height: 100vh;
+}
+
+.Header_about_section{
+    text-align: center;
+    font-size: 2.5vw;
+}
