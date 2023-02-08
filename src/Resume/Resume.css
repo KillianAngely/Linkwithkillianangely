@@ -1,0 +1,139 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.Section h2{font-size: 13px;}
+.intro p {
+    font-size: 24px;
+}
+.tittle_sentence h1{
+    font-size: 48px;
+}
+.Navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding-top:5rem ;
+    padding-bottom: 3rem;
+    
+}
+.hero_sentence{
+    margin-top:48px;
+    margin-bottom:48px
+}
+.Navbar_item{
+    display: flex;
+}
+.item_from_Navbar{
+    padding: 1rem;
+    text-decoration: none;
+    overflow: hidden;
+
+}
+.Reset{
+    color: black ;
+    text-decoration: none;
+}
+.link_Git{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.Section{
+    border-bottom:0.5px solid black;
+    letter-spacing: 2px ;
+    font-weight: 500;
+}
+.Row_skills{
+    padding-top:2rem ;
+    display: flex; 
+}
+.section_skills_part{
+display: flex;
+flex-direction: column;
+width: 33.33333%;
+}
+.section_eduction_part{
+    display: flex;
+    flex-direction: column;
+    width: 33.33333%; 
+}
+.tittle_section{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    margin :0;
+}
+.section_item{
+    list-style: none;
+    padding: 0;
+}
+
+.Row_education{
+    padding-top:2rem ;
+    display: flex;
+}
+.section_hero_conatiner{
+    padding-bottom:2rem ;
+}
+.section_skills_conatiner{
+    padding-bottom:2rem ;
+}
+.section_education_container{
+    padding-bottom:2rem ;
+}
+.section_work{
+    display: flex;
+    flex-direction: column;
+    width: 33.33333%;
+    list-style: none;
+    padding: 0;
+}
+.section_work_experience{
+    display: block;
+}
+
+.section_work_corp{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 33.33333%;
+}
+.Row_work{
+    display: flex;
+    padding-top:2rem ;
+}
+.section_work_container{
+    padding-bottom: 15rem;
+}
+.section_work_type{
+    font-weight: 600;
+}
+
+.footer{
+    border-top:0.5px solid rgb(128,128,128);
+    justify-content: space-between;
+    display: flex;
+    padding-top: 0.5rem;
+    color: rgb(128,128,128);
+    font-size: 12px;
+    margin:0;
+}
+.label{
+    list-style: none;
+    margin :0;
+    padding: 0;
+}
+.list_style_redirect{
+    display: flex;
+    list-style: none;
+}
+.item_redirect a{
+  
+    padding-left: 1rem;
+    color: rgb(128,128,128);
+}
