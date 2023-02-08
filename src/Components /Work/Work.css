@@ -2,4 +2,9 @@
     background-color: #fff;
     color: black;
     min-height: 80vh;
+    text-align: center;
+    padding: 10vh 20vh;
+}
+.Header_work{
+    font-size: 3vw;
 }
