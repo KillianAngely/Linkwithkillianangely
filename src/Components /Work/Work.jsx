@@ -8,8 +8,8 @@ class Work extends React.Component{
             <div className="Header_work">
                 <h2>I’m up for new Adventure and I’d like to work with you.</h2>
             </div>
-            <div>
-                <a href="./src/Resume/Resume.html">Contact me</a>
+            <div className="Resume_link_container">
+                <a  className="Resume_link" href="./src/Resume/Resume.html">Contact me</a>
             </div>          
         </div>
         );

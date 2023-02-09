@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 .Footer_container{
+background-color: white;
 position: relative;
 display: flex;
 justify-content: space-between;
-border-top: 1px solid white ;
+/* border-top: 1px solid white ; */
 align-items: baseline;
 padding-top: 0.5rem;
 padding-left: 0.7rem;
 padding-bottom: 0.5rem;
+
 margin:0 92px;
 
 
@@ -19,14 +21,14 @@ margin:0 92px;
 .label{
     text-transform: uppercase;
     font-size: 13px;
-    color: white;
+    color: black;
 }
 .list_item_footer{
     display: flex;
     list-style: none;
 }
 .item_footer{
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-size: 10px;
     padding-right: 8px;

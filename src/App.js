@@ -4,7 +4,7 @@ import  Navbar from './Components /Navbar/Navbar'
 import Footer from './Components /Footer/Footer'
 import About from './Components /About/About';
 import Work from './Components /Work/Work';
-import Projects from './Components /Project/Projects';
+import RepositoryList from './Components /Project/Projects';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
      <Navbar/>
      <About/>
      <Work/>
-     <Projects/>
+     <RepositoryList />
      <Footer/>
     </div>
    

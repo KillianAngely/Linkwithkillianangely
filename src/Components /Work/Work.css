@@ -4,7 +4,17 @@
     min-height: 80vh;
     text-align: center;
     padding: 10vh 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .Header_work{
     font-size: 3vw;
+}
+.Resume_link{
+    background-color: red;
+    border-radius:12px ;
+    padding:14px 28px;
+    color:black;
+   text-decoration: none;
 }
