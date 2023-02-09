@@ -1,0 +1,7 @@
+.Section_projects_container{
+    min-height: 100vh;
+    text-align: center;
+    padding: 10vh 20vh;
+    background-color: #f9f9f9;
+    color:black;
+}
