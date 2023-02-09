@@ -4,24 +4,64 @@
     background-color: #f9f9f9;
     color:black;
 }
+hr{
+    height: 1px;
+   background-color: #c4c4c4;;
+   border: none;
+    
+}
 
 .Header_projects{
     text-align: center;
     font-size: 2.5vw;
+    margin-bottom: 32px;
 }
 .Item_project{
-    /* border-top: 1px solid black;
-    border-bottom: 1px solid black; */
-    display: flex;
-    justify-content: space-between;
+
+    
+    background-color: #aee8fa;
+    border-radius: 12px;
+    padding:14px 28px;
+    list-style: none;
+    margin-bottom: 32px;
  
+}
+.cell_project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .list_project{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     list-style: none;
-    
+    margin: 0 auto;
+    max-width:764px ; 
+}
+.Name_Project{
+    margin-bottom: 3px;
+}
+.button_view{
+    background-color: #0a1e31;
+    border-radius:12px ;
+    padding:14px 28px;
+    color: #eaf4fe;
+   text-decoration: none;
+   margin-bottom: 8px;
+   box-sizing: border-box;
+   max-width: fit-content;
+   font-size: 16px;
+   font-weight: 600;
+}
+.item_date_repo{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.item_des_repo{
+    padding: 4px;
+    margin-bottom: 8px;
 }
 .Name_Project{
     color:black;

@@ -17,21 +17,19 @@ const RepositoryList = () => {
         </div>
 
       <div className="list_project">
-          <ul >
+         
             {repositories.map(repository => (
-              <li className="Item_project" key={repository.id}>
-
-                <h2><a className="Name_Project" href={repository.html_url}>{repository.name}</a></h2>
-
-          <ul className="list_project_info">
-            {new Date(repository.created_at).toLocaleDateString()}
-            <p>{repository.description}</p>
-          </ul>
-                {/* {" created on "} */}
-                
-              </li>
+                <ul className="Item_project">
+                  <li className="cell_project" key={repository.id}>
+                      <h2 className="Name_Project">{repository.name}</h2>
+                      <p className="item_date_repo">{new Date(repository.created_at).getFullYear()}</p>
+                      <hr></hr>
+                      <p className="item_des_repo">{repository.description}</p> 
+                      <a  className="button_view" href={repository.html_url}>View on Github</a>
+                  </li>                  
+                </ul>           
             ))}
-          </ul>
+          
         </div>
     </div>
   );
