@@ -17,7 +17,6 @@ const RepositoryList = () => {
         </div>
 
       <div className="list_project">
-         
             {repositories.map(repository => (
                 <ul className="Item_project">
                   <li className="cell_project" key={repository.id}>

@@ -6,7 +6,7 @@
 }
 hr{
     height: 1px;
-   background-color: #c4c4c4;;
+    background-color: #68bde7;
    border: none;
     
 }
@@ -43,7 +43,7 @@ hr{
     margin-bottom: 3px;
 }
 .button_view{
-    background-color: #0a1e31;
+    background: black;
     border-radius:12px ;
     padding:14px 28px;
     color: #eaf4fe;
@@ -53,7 +53,21 @@ hr{
    max-width: fit-content;
    font-size: 16px;
    font-weight: 600;
+   display: inline-block;
+   background-color : 2s cubic-bezier(.5,1,.5,1)
 }
+.button_view:hover {
+    background-color: #336484;
+    color: #eaf4fe
+    tra
+}
+
+.button_view:focus {
+    box-shadow: 0 0 0 4px #aee8fa,0 0 0 8px #000;
+    outline: none
+}
+    
+
 .item_date_repo{
     font-size: 16px;
     font-weight: 600;

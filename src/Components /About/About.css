@@ -1,9 +1,81 @@
-.Section_about_container{
-   padding: 30vh 20vh;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Hero_section_conatiner{
+    position: relative;
+    min-height: 90vh;
+    width: 100%;
+    text-align: center;
+}
+.Hero_sentence{
+    
+    margin-top: 35vh;
+    font-size: 4rem;
+   
+}
+.Hello_section_container{
+    position: relative;
     min-height: 100vh;
+    text-align: center; 
+}
+.Hello_sentence{
+    font-size: 4rem;
+}
+.Transition_section_container{
+    position: relative;
+    min-height: 50vh;
+    text-align: center;
+}
+.Transition_sentence{
+    font-size: 4rem;
 }
 
-.Header_about_section{
+.Goal_section_container{
+    min-height: 100vh;
     text-align: center;
-    font-size: 2.5vw;
+    padding-top: 50vh;
+    margin: 10vh;
+    
+}
+.Goal_sentence{
+    font-size: 4rem;
+}
+
+.Music_section_container{
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f0e68c;
+    color: blue;
+    padding-top: 40vh;
+}
+.Hobby_sentence{
+    font-size: 4rem;
+}
+.Sports_section_container{
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 30vh;
+    overflow: hidden; 
+}
+.Sports_section_container .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .Sports_section_container .content {
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+    }
+
+.Sports_sentence{
+   position: relative;
+   font-size: 4rem;
 }
